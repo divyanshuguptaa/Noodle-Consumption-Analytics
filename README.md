@@ -1,4 +1,4 @@
-# Ramen Project 
+# Noodle Consumption Analytics
 
 
 Note: the main purpose of this portfolio project is to showcase data analysis methods and skills, using SQL, Tableau, Python and R. As interesting as the findings may be, they are for demonstration purposes only as the validity of the data sources have not been properly verified.
