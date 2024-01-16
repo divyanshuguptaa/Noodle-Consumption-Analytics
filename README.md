@@ -1,26 +1,16 @@
 # Noodle Consumption Analytics
 
 
-Note: the main purpose of this portfolio project is to showcase data analysis methods and skills, using SQL, Tableau, Python and R. As interesting as the findings may be, they are for demonstration purposes only as the validity of the data sources have not been properly verified.
-<br />
-<br />
-<br />
-Here I analyze data on instant noodles from around the world, using a custom dataset assembled from three different sources.
+Focused on showcasing proficiency in data analysis through SQL, Tableau, Python, and R, this portfolio project delves into a comprehensive exploration of global instant noodle trends. The curated dataset is meticulously crafted from three distinct sources to provide valuable insights.
 
-The first is an [instant noodle review database](https://www.theramenrater.com) with over 4,000 reviews run by Mr. Hans "The Ramen Rater" Lienesch. Hans generously provides a basic set of this data for free (referred to as "The Big List" on his site) in XLSX and PDF formats, which I <em>**extensively cleaned, standardized, and updated**</em> through Google Sheets to include the latest reviews, all their corresponding URL, and complete record of his Top Ten Lists over the years.
+The primary source involves extracting data from Mr. Hans "The Ramen Rater" Lienesch's extensive instant noodle review database, boasting over 4,000 reviews. This dataset, known as "The Big List," is generously provided in XLSX and PDF formats. Rigorous cleaning and standardization were executed using Google Sheets, ensuring the inclusion of the latest reviews, their corresponding URLs, and a comprehensive record of Top Ten Lists over the years.
 
-The second data source is the global instant noodles demand ranking from the World Instant Noodles Association (WINA), which provides the data on noodle consumption per country<sup>※</sup>. This ranking can be accessed [here](https://instantnoodles.org/en/noodles/demand/table/).
+The World Instant Noodles Association (WINA) contributes global instant noodles demand rankings, offering a unique perspective on noodle consumption across countries. Access the ranking here.
 
-The final one is the United Nations Total Population Database, which provides the population estimates included in my dataset. You can find this database and more [here](https://web.archive.org/web/20220720010057/https://www.un.org/en/development/desa/population/publications/database/index.asp). I use this to calculate ramen consumption per capita.
-<br />
-<br />
-Data from these three sources were compiled along with "The Big List" raw data in the provided Excel file, "Ramen Full List (last updated date)".
-<br />
-<br />
-<br />
-In addition to the files in the repository, you can also see my R code in Markdown [here](https://p-teixeira.github.io/Ramen-Rater-Portfolio-Project/) and my Tableau visualization [here](https://public.tableau.com/views/AnalyzingTheRamenRatersData/AnalyzingTheRamenRater?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
-<br />
-<br />
-<br />
-<sup>※</sup> Please note there are a few differences between the data provided by WINA and the data in the set used for this project. For one, China and Hong Kong's values have been split for this project, and are approximated based on the proportion between their relative populations. The "Others" value in WINA's data has also been further split to approximate the noodle consumption of nations not originally included in their ranking. Similar to how China and Hong Kong were split, this approximation was calculated by multiplying the Others' consumption by the proportion of the population of the nation in question relative to the total remaining world population (i.e., the population of the "Others").
+The dataset is enriched further with insights from the United Nations Total Population Database, providing essential population estimates. Access the database and more here. This information serves as a crucial element for calculating ramen consumption per capita.
 
+Compiling data from these three sources, along with "The Big List" raw data, the project's foundation is laid in the Excel file titled "Ramen Full List (last updated date)."
+
+For a deeper dive into the analysis, explore the associated R code in Markdown here. Additionally, a Tableau visualization is available for reference.
+
+It's important to note that some disparities exist between the data provided by WINA and the dataset used in this project. Notably, values for China and Hong Kong are split, approximated based on their relative populations. The "Others" category in WINA's data is further disaggregated to estimate noodle consumption for nations not originally included in the ranking. This approximation is calculated by multiplying the consumption of "Others" by the proportion of the population of the specific nation relative to the total remaining world population.
